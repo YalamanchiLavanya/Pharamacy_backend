@@ -1,37 +1,25 @@
 {
   "name": "pharmacymanagementsystem",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "node server.cjs",
+    "dev": "node server.cjs",
+    "build": "npm install"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.9.0",
-    "axios": "^1.20.0",
     "cors": "^2.8.6",
     "express": "^5.2.1",
-    "json-server": "^0.17.4",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-redux": "^9.2.0",
-    "react-router-dom": "^7.18.4"
+    "json-server": "^0.17.4"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.33.0",
-    "@vitejs/plugin-react": "^5.0.2",
-    "eslint": "^9.33.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.3.0",
-    "vite": "^7.1.2"
-  },
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
+  "description": "MediCare Pharmacy Management System Backend",
+  "main": "server.cjs",
+  "keywords": [
+    "pharmacy",
+    "express",
+    "backend"
+  ],
+  "author": "Lavanya Yalamanchi",
   "license": "ISC"
 }
